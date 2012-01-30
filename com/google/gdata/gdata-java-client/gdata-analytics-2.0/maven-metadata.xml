@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.google.gdata.gdata-java-client</groupId>
+  <artifactId>gdata-analytics-2.0</artifactId>
+  <version>1.40.0</version>
+  <versioning>
+    <versions>
+      <version>1.40.0</version>
+    </versions>
+    <lastUpdated>20120129124015</lastUpdated>
+  </versioning>
+</metadata>
