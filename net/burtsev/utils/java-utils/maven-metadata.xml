@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.burtsev.utils</groupId>
+  <artifactId>java-utils</artifactId>
+  <version>0.1-SNAPSHOT</version>
+  <versioning>
+    <versions>
+      <version>0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20121107085629</lastUpdated>
+  </versioning>
+</metadata>
