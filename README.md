@@ -21,3 +21,14 @@ Just include following code to your ```pom.xml```:
   </repository>
 </repositories>
 ```
+Or you can use direct link to github:
+```
+<repositories>
+  <repository>
+      <id>gdata-maven-github</id>
+      <name>Google Gdata Maven Repository</name>
+      <url>https://raw.github.com/eburtsev/gdata-maven/master/</url>
+  </repository>
+</repositories>
+```
+But first way is preffered, because maven.burtsev.net uses github pages service to host files.
