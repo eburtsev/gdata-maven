@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.mulesoft.cloudhub</groupId>
+  <artifactId>cloudhub-client-api</artifactId>
+  <version>1.3.6-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20121003.095542</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20121003095542</lastUpdated>
+  </versioning>
+</metadata>
