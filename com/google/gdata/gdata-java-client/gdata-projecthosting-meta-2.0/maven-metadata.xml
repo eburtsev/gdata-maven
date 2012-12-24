@@ -2,11 +2,11 @@
 <metadata>
   <groupId>com.google.gdata.gdata-java-client</groupId>
   <artifactId>gdata-projecthosting-meta-2.0</artifactId>
-  <version>1.40.0</version>
   <versioning>
+    <release>1.40.0</release>
     <versions>
       <version>1.40.0</version>
     </versions>
-    <lastUpdated>20121104140036</lastUpdated>
+    <lastUpdated>20121223205113</lastUpdated>
   </versioning>
 </metadata>
