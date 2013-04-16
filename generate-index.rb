@@ -20,18 +20,26 @@ $link_template = "<li><a href='%1$s'>%1$s</a></li>"
 $base_dir = Dir.pwd
 
 def index_directory(dir, exclude_list = [])
-	flinks = ""
-	dlinks = ""
+	files = []
+	dirs = []
 	Dir.foreach(dir) do |f|
 		if not exclude_list.include?(f)
 			path = File.join(dir, f)
 			if File.directory?(path)
-				dlinks << $link_template % [f]
+				dirs << f
 				index_directory(path, [".", "..", "index.html"])
 			else
-				flinks << $link_template % [f]
+				files << f
 			end
 		end
+	end
+	flinks = ""
+	dlinks = ""
+	for f in files.sort
+		flinks << $link_template % [f]
+	end
+	for f in dirs.sort
+		dlinks << $link_template % [f]
 	end
 	index = open(File.join(dir, "index.html"), "w")
 	index.write($html_template % ["Index of #{dir.gsub($base_dir, "")}", dlinks, flinks])
